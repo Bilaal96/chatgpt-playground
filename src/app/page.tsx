@@ -59,13 +59,6 @@ export default function Home() {
 
   return (
     <main className="max-w-2xl mx-auto">
-      <Link
-        href="/docs-tutorial"
-        className="text-blue-600 underline hover:no-underline"
-      >
-        Implementation of ChatGPT Docs Tutorial --&gt;
-      </Link>
-
       <h1 className="text-3xl font-bold pt-4 mb-4">Chat GPT Bot</h1>
 
       <form id="ai-prompt" onSubmit={handleSubmit}>
